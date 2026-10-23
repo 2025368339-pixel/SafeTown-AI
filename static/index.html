@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="theme-color" content="#102e43" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="SafeTown AI" />
+  <meta name="description" content="SafeTown AI — resident safety reporting, live heatmap and security incident management." />
+  <link rel="manifest" href="/static/manifest.webmanifest" />
+  <link rel="icon" href="/static/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/static/icon-180.png" />
+  <title>SafeTown AI | Community Safety Intelligence</title>
+  <link rel="stylesheet" href="/static/styles.css?v=hci-layout-v3" />
+</head>
+<body>
+  <div id="toast" class="toast hidden" role="status"></div>
+  <div id="modalRoot"></div>
+  <div id="authPage" class="auth-screen">
+    <section class="auth-showcase">
+      <div class="logo white"><span class="logo-icon">◈</span> SafeTown<span class="light">AI</span></div>
+      <div class="auth-copy">
+        <div class="eyebrow light-ink">SAFER COMMUNITIES, BETTER DECISIONS</div>
+        <h1>A clearer picture of <em>township safety.</em></h1>
+        <p>A community reporting and safety intelligence platform. Residents raise concerns. Security teams verify them. Everyone gets a more reliable picture.</p>
+        <div class="auth-features"><span>◉ AI incident classification</span><span>◉ Live reported-risk map</span><span>◉ Verified management workflow</span></div>
+      </div>
+      <div class="auth-footnote">STUDENT HACKATHON PROTOTYPE • SIMULATED TOWNSHIP</div>
+    </section>
+    <section class="auth-panel">
+      <div class="auth-card">
+        <div class="eyebrow">WELCOME TO SAFETOWN AI</div>
+        <h2 id="authTitle">Sign in to continue</h2>
+        <p class="muted" id="authSubtitle">Access the appropriate workspace for your role.</p>
+        <form id="authForm">
+          <div id="signupNameGroup" class="hidden"><label for="signupName">Full name</label><input id="signupName" maxlength="60" autocomplete="name" placeholder="Your full name" /></div>
+          <label for="authEmail">Email address</label><input id="authEmail" type="email" autocomplete="email" required placeholder="name@example.com" />
+          <label for="authPassword">Password</label><input id="authPassword" type="password" autocomplete="current-password" required placeholder="Enter password" />
+          <button class="btn primary block" type="submit" id="authSubmit">Sign in →</button>
+        </form>
+        <div class="auth-switch" id="authSwitchLine">New resident? <button type="button" class="link-btn" id="switchAuth">Create an account</button></div>
+        <div class="demo-box">
+          <div class="demo-label">DEMO ACCOUNTS</div>
+          <button class="demo-account" data-demo="resident"><strong>Resident</strong><span>resident@safetown.test</span><span class="demo-arrow">↗</span></button>
+          <button class="demo-account" data-demo="admin"><strong>Security admin</strong><span>admin@safetown.test</span><span class="demo-arrow">↗</span></button>
+          <p>Click an account to prefill local demo credentials. Not for public deployment.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div id="appPage" class="app-page hidden">
+    <aside class="sidebar">
+      <div class="logo"><span class="logo-icon">◈</span> SafeTown<span class="light">AI</span></div>
+      <div class="sidebar-caption">SAFETY OPERATIONS PLATFORM</div>
+      <div id="rolePill" class="sidebar-role"></div>
+      <div class="sidebar-label">WORKSPACE</div>
+      <nav id="appNav" class="app-nav"></nav>
+      <div class="sidebar-bottom">
+        <div class="demo-note">↗ Prototype uses simulated risk data. Green does not mean guaranteed safe.</div>
+        <div class="user-panel"><div id="userAvatar" class="avatar"></div><div><strong id="userName"></strong><small id="userRole"></small></div></div>
+        <button id="logoutBtn" class="btn nav-logout">↪ &nbsp; Sign out</button>
+      </div>
+    </aside>
+    <div class="main-layout">
+      <header class="topbar">
+        <div><p class="topbar-kicker" id="pageKicker">LIVE INTELLIGENCE</p><h1 id="pageTitle">Township Safety Overview</h1></div>
+        <div class="topbar-actions"><span class="live-indicator"><i></i> LIVE DATA</span><button class="btn outline" id="refreshBtn">↻ Refresh</button></div>
+      </header>
+      <main id="mainContent" class="content"></main>
+      <footer class="app-footer">SafeTown AI v2.0 — Student prototype • Artificial township zones • Never substitute for emergency services</footer>
+    </div>
+  </div>
+  <script src="/static/app.js?v=hci-layout-v3"></script>
+</body>
+</html>

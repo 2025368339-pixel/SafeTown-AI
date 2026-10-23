@@ -1,0 +1,38 @@
+IMPORTANT: THIS UPDATED V2 USES PORT 8002!
+If the old browser page at 127.0.0.1:8000 is still open, that is the OLD system.
+Always open http://127.0.0.1:8002 to see the NEW system.
+
+SAFETOWN AI VERSION 2 — UPDATED COMPLETE PROTOTYPE
+
+1. Install Python 3.10 or newer (tick 'Add Python to PATH').
+2. Extract the ZIP and open the SafeTown_AI_V2 folder.
+3. Double-click run_windows.bat.
+4. Wait for dependency installation and server startup.
+5. Open in Chrome or Edge: http://127.0.0.1:8002
+
+RESIDENT LOGIN
+Email: resident@safetown.test
+Password: Resident@12345
+
+SECURITY ADMIN LOGIN
+Email: admin@safetown.test
+Password: Admin@12345
+
+DEMO FLOW
+Resident creates report + chooses severity -> AI categorizes incident -> Pending ->
+Admin reviews and confirms or CORRECTS severity with a reason -> Verified ->
+In progress -> Resolved -> Resident can track it -> Risk map recalculates.
+
+IMPORTANT:
+- Admin no longer manually adds infrastructure incidents.
+- AI does NOT rate severity. Residents rate it; admin verifies it.
+- Original resident rating stays saved even if admin corrects it.
+- The township map uses synthetic data and does NOT indicate guaranteed safety.
+- Run README.md for full explanation.
+- Do NOT double-click index.html; you must run the Python backend.
+
+TIP: To open on another computer, you would need proper secure deployment.
+The included local setup is intended for presentation on one computer only.
+
+
+MOBILE (Android / iPhone): Start run_windows.bat on your PC; connect phone to same trusted Wi-Fi; open http://YOUR-PC-IP:8002 in phone browser. Use ipconfig to find your PC IPv4. Do not enter 127.0.0.1 on your phone.

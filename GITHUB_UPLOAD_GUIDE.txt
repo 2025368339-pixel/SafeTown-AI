@@ -1,0 +1,16 @@
+SAFETOWN AI — SOURCE CODE UPLOAD GUIDE
+
+1. This folder contains the source code for SafeTown AI (mobile + desktop).
+2. Create a PRIVATE repository on github.com called SafeTown-AI.
+3. In your empty repository choose "uploading an existing file" or "Add file > Upload files".
+4. Drag the CONTENTS of this folder into the upload page (keep static/ and data/ folder paths).
+5. Commit message: Initial SafeTown AI V3 prototype.
+6. Verify you can see server.py, requirements.txt, static/, data/, README.md.
+
+NEVER UPLOAD: generated database (*.db), uploads/ resident evidence,
+passwords, private credentials, .env, or virtual environments.
+The included sample login passwords are DEMO ONLY; do not deploy publicly
+with the default authentication setup.
+
+GitHub stores your code. GitHub Pages CANNOT run this Python FastAPI backend.
+Use a Python web host when you need a live accessible URL.

@@ -1,0 +1,97 @@
+text,category
+lampu jalan rosak dekat playground,poor_lighting
+streetlight broken near park,poor_lighting
+lamp post flickering beside road,poor_lighting
+lampu tak hidup waktu malam,poor_lighting
+pathway gelap sangat,poor_lighting
+poor lighting at lakeside walkway,poor_lighting
+lampu kawasan parking tak menyala,poor_lighting
+walkway too dark after 9pm,poor_lighting
+street lamp outage near residential entrance,poor_lighting
+jalan gelap dekat surau sebab lampu rosak,poor_lighting
+flickering light at pedestrian crossing,poor_lighting
+lampu padam dekat playground,poor_lighting
+broken fence latch at housing area,infrastructure_damage
+pagar belakang rosak dan terbuka,infrastructure_damage
+gate lock does not work,infrastructure_damage
+pintu gate rosak dekat entrance,infrastructure_damage
+penutup longkang pecah near sidewalk,infrastructure_damage
+broken railing at staircase,infrastructure_damage
+cracked pavement near community hall,infrastructure_damage
+jalan berlubang kawasan jogging,infrastructure_damage
+hole on the walking path,infrastructure_damage
+fence damaged beside children playground,infrastructure_damage
+CCTV pole fell down,infrastructure_damage
+pagar sekolah longgar,infrastructure_damage
+orang mencurigakan dekat playground,suspicious_activity
+suspicious person near parking area,suspicious_activity
+someone trying to open car doors,suspicious_activity
+ada orang asing cuba masuk rumah,suspicious_activity
+stranger loitering around residential gate,suspicious_activity
+orang tak dikenali mengintai rumah,suspicious_activity
+unknown person checking parked cars,suspicious_activity
+lelaki mencurigakan di tepi taman,suspicious_activity
+someone follows residents at night,suspicious_activity
+suspicious loitering outside block c,suspicious_activity
+orang pelik cuba buka kereta,suspicious_activity
+stranger wandering around back alley,suspicious_activity
+anjing liar dekat playground,stray_animals
+stray dogs chasing kids,stray_animals
+anjing liar mengejar cyclist,stray_animals
+monkey near rubbish bins,stray_animals
+sekumpulan anjing dekat taman,stray_animals
+aggressive stray dog in residential road,stray_animals
+ular dekat laluan pejalan kaki,stray_animals
+snake spotted by swimming pool,stray_animals
+stray animal blocking walkway,stray_animals
+kera masuk kawasan rumah,stray_animals
+anjing ganas kejar orang jogging,stray_animals
+wild boar near the park,stray_animals
+car accident near roundabout,accident
+kemalangan dekat pintu utama,accident
+motorcycle crash at junction,accident
+kereta langgar lampu jalan,accident
+collision between two cars at gate,accident
+motosikal terbabas depan guard house,accident
+accident near main entrance,accident
+road crash blocking entrance,accident
+pedestrian injured in traffic accident,accident
+kereta accident dekat parking,accident
+langgar pembahagi jalan at zone a,accident
+vehicle accident at main boulevard,accident
+people fighting near basketball court,crowd_disorder
+orang bergaduh dekat taman,crowd_disorder
+loud aggressive argument at shop,crowd_disorder
+kumpulan remaja buat kecoh waktu malam,crowd_disorder
+fighting outside community hall,crowd_disorder
+bising dan gaduh dekat parking,crowd_disorder
+noisy crowd blocking pathway,crowd_disorder
+pukul orang di taman permainan,crowd_disorder
+people shouting and fighting,crowd_disorder
+pergaduhan berlaku di jalan,crowd_disorder
+riot near shop entrance,crowd_disorder
+crowd disturbance at the park,crowd_disorder
+banjir kilat dekat entrance,weather_hazard
+flash flood on the road,weather_hazard
+pokok tumbang selepas ribut,weather_hazard
+fallen tree blocking road after heavy rain,weather_hazard
+longkang melimpah waktu hujan lebat,weather_hazard
+water rising at lakeside,weather_hazard
+jalan banjir dan licin,weather_hazard
+heavy storm damaged sidewalk,weather_hazard
+landslide risk near slope,weather_hazard
+angin kuat pokok hampir jatuh,weather_hazard
+road flooded near block b,weather_hazard
+ribut kuat dekat taman,weather_hazard
+rubbish on pavement,other
+lost item at playground,other
+small obstruction on walkway,other
+signboard leaning near park,other
+benda tajam dekat laluan kaki,other
+spilled oil on road,other
+water puddle near community hall,other
+missing road sign,other
+unusual smell near drain,other
+jalan licin selepas hujan,other
+rubbish blocking pathway,other
+something looks unsafe near building,other
